@@ -7,7 +7,8 @@ scalaVersion  := "2.10.2"
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
 resolvers ++= Seq(
-  "spray repo" at "http://repo.spray.io/"
+  "spray repo" at "http://repo.spray.io/",
+  "dev java net" at "https://maven.java.net/content/groups/public/"
 )
 
 libraryDependencies ++= Seq(
